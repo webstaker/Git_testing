@@ -9,6 +9,4 @@ with speech_recognition.Microphone() as mic:
     query = sr.recognize_google(audio_data=audio , language="ru-RU")
 print(query)
 
-a = {}
 
-a["first"] = [1]
